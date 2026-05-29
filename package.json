@@ -157,10 +157,8 @@
     "tsx": "^4.19.0",
     "typescript": "^5.9.3",
     "vitest": "^4.1.6"
-  }
-}
-
-"pnpm": {
+  },
+  "pnpm": {
     "onlyBuiltDependencies": [
       "prisma",
       "@prisma/engines",
@@ -168,3 +166,4 @@
       "sharp"
     ]
   }
+}
