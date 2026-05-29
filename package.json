@@ -159,3 +159,12 @@
     "vitest": "^4.1.6"
   }
 }
+
+"pnpm": {
+    "onlyBuiltDependencies": [
+      "prisma",
+      "@prisma/engines",
+      "esbuild",
+      "sharp"
+    ]
+  }
