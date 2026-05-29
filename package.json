@@ -12,7 +12,7 @@
   "type": "module",
   "scripts": {
     "dev": "dotenv next dev --turbo",
-    "build": "DATABASE_URL='mysql://u352625286_umami:3M!AU/>s*@localhost:3306/u352625286_umami' npm-run-all check-env build-db update-db build-tracker build-recorder build-geo build-app",
+   "build": "DATABASE_URL=mysql://localhost:3306/u352625286_umami npm-run-all check-env build-db build-tracker build-recorder build-geo build-app",
     "start": "next start",
     "build-docker": "npm-run-all build-db build-tracker build-recorder build-geo build-app",
     "start-docker": "npm-run-all check-db update-tracker start-server",
